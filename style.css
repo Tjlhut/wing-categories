@@ -44,6 +44,13 @@ h4 {
   color: white;
 }
 
+.cat-row1 {
+  display: flex;
+}
+.cat-row2 {
+  display: flex;
+}
+
 /* .category-title{
     width:
 } */
