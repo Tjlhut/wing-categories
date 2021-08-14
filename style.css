@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+h4 {
+  font-family: "Arvo", sans-serif;
+  font-weight: 400;
+  color: #006080;
+  font-size: 4rem;
+}
+
+.category {
+  width: 42.3rem;
+  /* height: 46.5rem; */
+  margin: auto;
+  margin-top: 10rem;
+  cursor: pointer;
+  position: relative;
+}
+.category-title {
+  text-align: center;
+  background-color: #efefef;
+  border-radius: 0 0 4.4rem 4.4rem;
+  padding: 1.5rem 0;
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  top: 38.7rem;
+  /* bottom: 0rem; */
+}
+.category img {
+  border-radius: 4.4rem 4.4rem 0 0;
+}
+
+.category:hover .category-title {
+  background: linear-gradient(89.9deg, #5fcae8 0.12%, #ed65a0 99.95%);
+}
+.category:hover .category-title h4 {
+  color: white;
+}
+
+/* .category-title{
+    width:
+} */
